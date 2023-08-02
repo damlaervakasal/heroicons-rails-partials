@@ -1,8 +1,6 @@
-# Conversion of heroicons to rails partials
+# Converting Heroicons into Rails Partials.
 
-- I created this project using V2.0.18 of [heroicons](https://heroicons.com/).
-- The purpose of creating this repo is to convert icons into forms suitable for use in rails projects.
-- My purpose in creating this repo is to enable partial use of svg files of icons from [heroicons](https://heroicons.com/) in Rails projects.
-- Thus, we make it easier to use by converting [heroicons](https://heroicons.com/) to the appropriate format.
-
-
+- I utilized version 2.0.18 of [heroicons](https://heroicons.com/) to develop this project.
+- The reason for making this repository is to transform icons into formats that are appropriate for utilization in Rails projects.
+- I created this repository to allow the use of partial SVG files of icons from [heroicons](https://heroicons.com/) in Rails projects.
+- We simplify the usage of [heroicons](https://heroicons.com/) by converting them to the correct format.
