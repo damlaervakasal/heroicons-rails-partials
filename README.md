@@ -1,22 +1,8 @@
 # Conversion of heroicons to rails partials
 
-My purpose in creating this repo is to make it easier to use in projects by converting icons into formats suitable for use in rail projects.
+- I created this project using V2.0.18 of [heroicons](https://heroicons.com/).
+- The purpose of creating this repo is to convert icons into forms suitable for use in rails projects.
+- My purpose in creating this repo is to enable partial use of svg files of icons from [heroicons](https://heroicons.com/) in Rails projects.
+- Thus, we make it easier to use by converting [heroicons](https://heroicons.com/) to the appropriate format.
 
-
-- I made the svg files of the icons on the [heroicons](https://heroicons.com/) site can be used as partial in rails projects using the
-```
-require 'fileutils'
-
-def converter(name)
-    a = name.split("-")
-    a[-1] = a.last[0..-5]
-    a.join("_")
-end 
-
-folder_path = "../optimized/20/solid"
-
-Dir.children("../optimized/20/solid").each do |svg_file|
-    File.rename(File.join(folder_path, svg_file), File.join(folder_path, "_#{converter(svg_file)}.html.erb"))
-end
-```
 
